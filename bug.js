@@ -1,0 +1,1 @@
+This error occurs when using the Expo Camera API and attempting to access the camera's preview before it has fully initialized.  The `Camera` component's `onCameraReady` prop is not being used to ensure the camera is ready. This results in a `null` or undefined value being used for the camera ref.
