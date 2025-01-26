@@ -1,0 +1,1 @@
+This repository demonstrates a common error encountered when using the Expo Camera API. The error occurs when trying to access the camera preview before the camera is fully initialized. The solution involves using the `onCameraReady` prop to ensure the camera is ready before accessing its properties.
